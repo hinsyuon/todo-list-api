@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: todo-list-api
+---
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/db_todo_list_api
+    password: IT@1994
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    open-in-view: false
