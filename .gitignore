@@ -31,3 +31,9 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Environment files
+*.properties  # Only if it contains sensitive info like DB credentials
+*.yml         # Only if it contains sensitive info like DB credentials
+
+
